@@ -1,29 +1,44 @@
 @media (min-width: 770px) {
   .shop-bar-footer,
   .nav-bar-footer {
+    display: flex;
     padding-top: 31px;
   }
   .footer-nav-part {
     display: flex;
-    justify-content: right;
   }
-
-  .header__nav-social-list-footer li {
+  .footer-logo-subtext,
+  .footer-text-content {
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+  }
+  .subscribe-part-header {
+    text-align: left;
+  }
+  .footer-top-part {
+    display: flex;
+    flex-direction: row;
+  }
+}
+#email-input {
+  border-color: #f9f9f9;
+  background-color: rgb(46, 46, 46);
+  min-width: 250px;
+  width: 80%;
+  height: 47px;
   display: flex;
-  align-items: flex-end;
-  margin-top :20px;;
-  justify-content: center;
-
+  border-style: none;
+  margin-bottom: 25px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2px;
+  text-align: center;
 }
 .footer-top-part {
   display: flex;
-  justify-content: space-evenly;
-}
-}
-
-.footer-top-part {
-  display: flex;
-  flex-direction: column;
+  flex-direction: column;/*запитати В'ячеслава*/
   justify-content: space-evenly;
 }
 .footer {
@@ -33,10 +48,10 @@
 .shop-bar-footer {
   display: flex;
   flex-direction: column;
+  min-width: 100px;
   margin: 0 40px;
   text-align: center;
 }
-
 .nav-bar-footer a {
   color: #222;
   line-height: normal;
@@ -66,7 +81,7 @@
   margin: 0 auto;
 }
 .logo-img-footer {
-  padding-top: 95px;
+  padding-top: 40px;
   width: 238px;
   height: 60px;
   display: flex;
@@ -78,9 +93,8 @@
   text-align: center;
   font-size: 14px;
   line-height: 1.4;
-  font-family: Roboto, sans-serif;
+  font-family: var(--main-font);
   font-weight: 700;
-  text-decoration: none;
   font-style: normal;
   letter-spacing: 0;
   color: var(--accent-text-color);
@@ -95,7 +109,7 @@
   margin-left: auto;
   margin-right: auto;
 }
-.subscribe-part h3 {
+.subscribe-part-header {
   margin-top: 50px;
   text-align: center;
   color: #fff;
@@ -108,40 +122,24 @@
   border-style: none;
   color: #fff;
   font-weight: 600;
+  min-width: 250px;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
   padding: 15px 0 15px 0;
   justify-content: center;
 }
-
 .subscribe-btn:hover {
   transition: 0.2s;
   color: #222;
   background-color: #fff;
 }
-#email-input {
-  border-color: #f9f9f9;
-  background-color: rgb(46, 46, 46);
-  width: 257.5px;
-  height: 47px;
-  display: flex;
-  border-style: none;
-  margin-bottom: 25px;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 2px;
-  text-align: center;
-  width: 80%;
-}
 #email-input::placeholder {
   text-align: center;
 }
-
 .created-by {
   background-color: #000;
-  display: block;
+  flex-direction: column;
 }
 .created-by p {
   margin-bottom: 20px;
@@ -153,13 +151,11 @@
   color: var(--accent-text-color);
   font-size: 12px;
   line-height: 1.6;
-  font-family: Roboto, sans-serif;
+  font-family: var(--main-font);
   font-weight: 700;
   font-style: normal;
-  letter-spacing: 0;
   text-transform: none;
 }
-
 .header__nav-social-list-footer li {
   display: flex;
   align-items: center;
@@ -175,4 +171,3 @@
 .header__nav-social-list-item {
   margin: 0 8px;
 }
-
