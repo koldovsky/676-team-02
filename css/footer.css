@@ -38,7 +38,7 @@
 }
 .footer-top-part {
   display: flex;
-  flex-direction: column;/*запитати В'ячеслава*/
+  flex-direction: column;/*запитати у В'ячеслава*/
   justify-content: space-evenly;
 }
 .footer {
@@ -154,7 +154,6 @@
   font-family: var(--main-font);
   font-weight: 700;
   font-style: normal;
-  text-transform: none;
 }
 .header__nav-social-list-footer li {
   display: flex;
