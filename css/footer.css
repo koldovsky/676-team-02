@@ -17,8 +17,9 @@
     text-align: left;
   }
   .footer-top-part {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns:2fr 1fr 1fr 2fr;
+    margin-right:10px ;
   }
 }
 #email-input {
@@ -36,11 +37,17 @@
   border-radius: 2px;
   text-align: center;
 }
-.footer-top-part {
-  display: flex;
-  flex-direction: column;/*запитати у В'ячеслава*/
-  justify-content: space-evenly;
+.bar-header
+{
+  color: #fff;
 }
+.shop-bar-footer,
+.nav-bar-footer
+{
+  display: flex;
+  text-align: left;
+}
+
 .footer {
   background-color: rgb(33, 33, 33);
 }
