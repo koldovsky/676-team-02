@@ -1,12 +1,253 @@
+@media(min-width:652)
+{
+  #consalting-img ,#rental-service-img,#accessories-img#repair-img 
+{
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+#rental-service-img {
+  width: auto;
+  height: auto;
+  align-items: center;
+  display: flex;
+}
+
+#consalting-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+  align-items: center;
+  display: flex;
+}
+#accessories-img {
+  width: auto;
+  height: auto;
+  align-items: center;
+  display: flex;
+}
+#repair-img {
+  width: auto;
+  height: auto;
+  align-items: center;
+  display: flex;
+}
+}
+@media(min-width:844px)
+{
+  .info-services-tab
+  {
+   padding-left: auto;
+   margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+  }
+  .form-tab
+  {
+    display: flex;
+    flex-direction: row;
+  }
+.services-header-tab
+{
+  text-align: left;
+}
+#consalting-img ,#rental-service-img,#accessories-img#repair-img 
+{
+  max-width:430px;
+  max-height:741px ;
+}
+#rental-service-img {
+  width: auto;
+  height: auto;
+  align-items: center;
+  display: flex;
+}
+
+#consalting-img {
+
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+  align-items: center;
+  display: flex;
+}
+#accessories-img {
+  width: auto;
+  height: auto;
+  align-items: center;
+  display: flex;
+}
+#repair-img {
+  width: auto;
+  height: auto;
+  align-items: center;
+  display: flex;
+}
+}
+
 .description-checkbox-first {
-  width: 30px;
+  width: 25px;
   height: 25px;
 }
 .description-checkbox-second {
-  width: 30px;
+  width: 25px;
   height: 25px;
 }
 .description-checkbox-third {
-  width: 30px;
+  width: 25px;
   height: 25px;
+}
+.nav {
+  justify-content: center;
+}
+.nav-link {
+  color: var(--accent-text-color);
+}
+.nav-link:hover {
+  color: #000;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: black;
+  background-color: #fff;
+  border-radius: 0;
+  border-bottom: 2px #000 solid;
+}
+.section-substitle {
+  color: var(--icons-color-hover);
+  font-size: 12px;
+  line-height: 1.6;
+  font-family: var(--main-font);
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0;
+  text-transform: none;
+  margin-top: 90px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-title {
+  color: var(--primari-title-color);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-subtext {
+  color: var(--primari-text-color);
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: var(--main-font);
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#rental-service-img {
+  
+  margin-left:auto ;
+  margin-right: auto;
+  max-width:430px ;
+  max-height:734px ;
+  width: auto;
+  height: auto;
+  align-items: center;
+  display: flex;
+}
+
+#consalting-img {
+margin: auto;
+min-width:320px ;
+min-height:230px ;
+  max-width:430px;
+  max-height:741px ;
+  width: auto;
+  height: auto;
+  align-items: center;
+  display: flex;
+}
+#accessories-img {
+  margin: auto;
+  max-width: 430px; ;
+  max-height:815px;
+  width: auto;
+  height: auto;
+  align-items: center;
+  display: flex;
+}
+#repair-img {
+  margin: auto;
+  max-width:430px ;
+  max-height: 682px;
+  width: auto;
+  height: auto;
+  align-items: center;
+  display: flex;
+}
+.form-tab {
+  margin-left:auto ;
+  margin-right: auto;
+  justify-content: space-around;
+  margin-top: 50px;
+  padding: 39px 47px;
+  border-radius: 8px;
+  background-color: var(--primari-white-color);
+  box-shadow: 0 5px 11.2px 2.8px rgb(136 140 133 / 12%);
+}
+.form-tab h4 {
+
+  padding: 10px;
+  font-size: 22px;
+  line-height: 1.5;
+  font-family: var(--accent-font);
+  font-weight: 600;
+  font-style: normal;
+  color: #222;
+  text-transform: none;
+}
+.description {
+  text-align: left;
+
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+}
+.checkbox-first,
+.checkbox-second,
+.checkbox-third {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  color: rgb(140, 140, 140);
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+}
+.checkbox-first,
+.checkbox-second,
+.checkbox-third p {
+  text-align: left;
+  width: auto;
+  height: auto;
+}
+.description-checkbox-first,
+.description-checkbox-second,
+.description-checkbox-third {
+  margin-right: 10px;
 }
