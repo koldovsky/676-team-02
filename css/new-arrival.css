@@ -1,5 +1,4 @@
-.new-arrival-picture {
-}
+
 img {
   width: 100%;
 }
@@ -25,11 +24,9 @@ img {
     max-width: 50%;
   }
 }
-/*
 
-.new-arrival-title {
-  text-align: center;
-}
+
+
 .new-arrival-subtitle {
   color: #222;
   font-size: 18px;
