@@ -29,7 +29,54 @@ ul {
   list-style: none;
   text-decoration: none;
 }
-section {
-  padding-right: 40px;
-  padding-left: 40px;
+@media screen and (min-width: 480px) {
+  .container {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+}
+@media screen and (min-width: 922px) {
+  .container {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.button-link {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16.5px;
+  padding: 18px 26px;
+  cursor: pointer;
+  border-radius: 2px;
+  color: var(--primari-white-color);
+  background-color: var(--accent-color);
+  border: 1px solid transparent;
+  transition: background-color cubic-bezier(0.2, 0.2, 0.2, 0.2);
+}
+.button-link:hover,
+.button-link:focus {
+  background-color: var(--primari-title-color);
+}
+.button {
+  margin-top: 56px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16.5px;
+  padding: 18px 26px;
+  cursor: pointer;
+  border-radius: 2px;
+  color: var(--primari-white-color);
+  background-color: var(--accent-color);
+  border: 1px solid transparent;
+  transition: background-color cubic-bezier(0.2, 0.2, 0.2, 0.2);
+}
+.button:hover,
+.button:focus {
+  background-color: var(--primari-title-color);
 }

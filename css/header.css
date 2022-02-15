@@ -1,7 +1,5 @@
 .header__contacts {
   display: none;
-  padding-left: 40px;
-  padding-right: 40px;
 }
 @media screen and (min-width: 990px) {
   .header__contacts {
@@ -122,6 +120,20 @@
   background-position-y: 70.98%;
   background-size: cover;
 }
+@media screen and (min-width: 768px) {
+  .header__baner {
+    padding-top: 172.5px;
+    padding-bottom: 147.5px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header__baner {
+    padding-top: 235px;
+    padding-bottom: 195px;
+  }
+}
+
 .header__baner-subtitle {
   font-weight: 700;
   font-size: 12px;
@@ -155,20 +167,4 @@
   color: var(--header-text-color);
   margin-top: 35px;
   margin-bottom: 50px;
-}
-.button-link {
-  font-family: inherit;
-  font-weight: 400;
-  font-size: 16.5px;
-  padding: 18px 26px;
-  cursor: pointer;
-  border-radius: 2px;
-  color: var(--primari-white-color);
-  background-color: var(--accent-color);
-  border: 1px solid transparent;
-  transition: background-color cubic-bezier(0.2, 0.2, 0.2, 0.2);
-}
-.button-link:hover,
-.button-link:focus {
-  background-color: var(--primari-title-color);
 }
