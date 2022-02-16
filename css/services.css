@@ -1,6 +1,6 @@
 @media(min-width:652)
 {
-  #consalting-img ,#rental-service-img,#accessories-img#repair-img 
+  .consalting-img ,#rental-service-img,#accessories-img#repair-img 
 {
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
@@ -14,7 +14,7 @@
   display: flex;
 }
 
-#consalting-img {
+.consalting-img {
   margin-left: auto;
   margin-right: auto;
   width: auto;
@@ -54,7 +54,7 @@
 {
   text-align: left;
 }
-#consalting-img ,#rental-service-img,#accessories-img#repair-img 
+.consalting-img ,#rental-service-img,#accessories-img#repair-img 
 {
   max-width:430px;
   max-height:741px ;
@@ -66,7 +66,7 @@
   display: flex;
 }
 
-#consalting-img {
+.consalting-img {
 
   object-fit: cover;
   margin-left: auto;
@@ -160,7 +160,7 @@
   display: flex;
 }
 
-#consalting-img {
+.consalting-img {
   max-width:430px;
   max-height:741px ;
   align-items: center;
