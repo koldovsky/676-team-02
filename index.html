@@ -42,25 +42,25 @@
       </button>
       <ul class="header__nav-list">
         <li class="header__nav-list-item">
-          <a class="header__nav-list-item-link" href="#">About Us</a>
+          <a class="header__nav-list-item-link" href="#about">About Us</a>
         </li>
         <li class="header__nav-list-item">
-          <a class="header__nav-list-item-link" href="#">Coffee Machines</a>
+          <a class="header__nav-list-item-link" href="#coffee-machines">Coffee Machines</a>
         </li>
         <li class="header__nav-list-item">
-          <a class="header__nav-list-item-link" href="#">Testimonials</a>
+          <a class="header__nav-list-item-link" href="#testimonials">Testimonials</a>
         </li>
         <li class="header__nav-list-item">
-          <a class="header__nav-list-item-link" href="#">Services</a>
+          <a class="header__nav-list-item-link" href="#services">Services</a>
         </li>
         <li class="header__nav-list-item">
-          <a class="header__nav-list-item-link" href="#">Coffee</a>
+          <a class="header__nav-list-item-link" href="#coffee">Coffee</a>
         </li>
         <li class="header__nav-list-item">
-          <a class="header__nav-list-item-link" href="#">Pricing</a>
+          <a class="header__nav-list-item-link" href="#pricing">Pricing</a>
         </li>
         <li class="header__nav-list-item">
-          <a class="header__nav-list-item-link" href="#">Contacts</a>
+          <a class="header__nav-list-item-link" href="#contacts">Contacts</a>
         </li>
       </ul>
       <ul class="header__nav-social-list">
@@ -98,7 +98,7 @@
     <main>
       <!-- Dmitry's block start -->
           <!--Three cards block--> 
-    <section class="page_services container">
+    <!-- <section class="page_services container" id="services">
       <div class="page_services services">
         <div class="services_container">
           <div class="services_body">
@@ -137,17 +137,17 @@
            </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!--End Three cards block-->
     <!--About block-->
-    <section class="section-about container">
-      <div class="about">
-        <div class="about-image">
-          <img src="img/aboutblock/img_about.png" alt="Image about block" class="img-about" />
-        </div>
-        <div class="about-texts">
-          <h4 class="about-title">ABOUT</h4>
-          <h2 class="about-header">About Coffee Space</h2>
+    <section class="section-about container row">
+      <div class="about-image col-12 col-sm-12 col-md-6 col-lg-6">
+        <img src="img/aboutblock/img_about.png" alt="Image about block" class="img-about d-block w-100" />
+      </div>
+      <div class="about-text-block col-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="about-text-header">
+          <h4 class="section-subtitle">ABOUT</h4>
+          <p class="section-title">About Coffee Space</p>
           <p class="about-subheader">
             For 10 years, our company has been making sure that you can always
             drink the most delicious coffee from the best coffee machines.
@@ -158,32 +158,18 @@
             coffee beans from the best producers. Our company does everything
             to ensure that you can enjoy delicious coffee whenever you want.
           </p>
-          <!-- <div class="about-markedtext"> -->
-            
-            <!-- <img src="img/aboutblock/check_img.svg" alt="check pictures" class="about-checkpics" width="20" -->
-              <!-- height="20" /> -->
-           <ul>
-              <li>
-                <p class="page_about_markedtext-header">
-                  For offices and commercial use
-                </p>
-              </li>  
-          <!-- </div> -->
-          <p class="page_about_markedtext-text">We offer our corporate clients coffee machines with high
+        </div>
+        <div class="about-text-checked-text">
+          <p>We offer our corporate clients coffee machines with high
             performance. You can rent a coffee machine for use in office
             kitchens and coffee shops.</p>
-          <!-- <div class="about-markedtext"> -->
-            <!-- <img src="img/aboutblock/check_img.svg" alt="check pictures" class="about-checkpics" width="20" -->
-              <!-- height="20" /> -->
-            <li>
-              <p class="page_about_markedtext-header">For your home</p>
-            </li>
-          <!-- </div> -->
-          <p class="page_about_markedtext-text">If you want to enjoy delicious and aromatic coffee at home, you
+        </div>
+        <div class="about-text-checked-text">
+          <p>If you want to enjoy delicious and aromatic coffee at home, you
             will find budget and compact options in our store.</p>
-          </ul>
         </div>
       </div>
+
     </section>
     <!--End About block-->
     <!--Next cards block-->
@@ -248,7 +234,7 @@
     </section>>
     <!-- Andrew's block end -->
     <!-- Anton's block start -->
-    <section class="coffee-machines">
+    <section class="coffee-machines" id="coffee-machines">
       <p class="subtitle">COFFEE MACHINES</p>
       <h2 class="title__h2">Discover Coffee Machines We Offer</h2>
       <p class="subtext">We offer professional coffee machines for commercial and home use.</p>
@@ -340,12 +326,12 @@
             coffee into the container, pour in water, and press one button. The
             machine also froths milk for the latte.
           </p>
-          <ul class="new-arrival-text">
-            <li>Stainless steel cup holder;</li>
-            <li>Removable drip-tray for cups;</li>
-            <li>3 filters included (1 cup, 2 cups, paper pods);</li>
-            <li>Flow stop function;</li>
-            <li>Steam option.</li>
+          <ul class="new-arrival-list">
+            <li class="new-arrival-item">Stainless steel cup holder;</li>
+            <li class="new-arrival-item">Removable drip-tray for cups;</li>
+            <li class="new-arrival-item">3 filters included (1 cup, 2 cups, paper pods);</li>
+            <li class="new-arrival-item">Flow stop function;</li>
+            <li class="new-arrival-item">Steam option.</li>
           </ul>
           <p class="footnote-new-arrival">
             This coffee machine is presented in a luxurious red color and will
@@ -360,22 +346,25 @@
     </div>
     <div class="block-get-1-month">
       <div class="box-get-1-month">
-        <div class="box-text-get-1-month">
-          <h2 class="h2-get-1-month">
-            Get 1 month <span style="color: red"> free*</span> usage
-          </h2>
-          <p class="footnote-get-1-month">
-            *Rent any coffee machine for at least 6 months and get 1 month for
-            free! This promotion is valid only until May 31, 2021, and can't be
-            combined with other offers.
-          </p>
-        </div>
-        <div class="box-button-get-1-month">
-          <div class="rent-now">
-            <p><a class="button-rent" href="#contacts">Rent now</a></p>
+        <div class="get-1-month">
+          <div class="box-text-get-1-month">
+            <h2 class="h2-get-1-month">
+              Get 1 month <span style="color: red"> free*</span> usage
+            </h2>
+            <p class="footnote-get-1-month">
+              *Rent any coffee machine for at least 6 months and get 1 month for
+              free!<br />
+              This promotion is valid only until May 31, 2021, and can't be
+              combined with other offers.
+            </p>
           </div>
-          <div class="learn-More">
-            <p><a class="button-learn" href="#machines">Rent now</a></p>
+          <div class="box-button-get-1-month">
+            <div class="rent-now">
+              <a class="button-rent" href="#contacts">Rent now</a>
+            </div>
+            <div class="learn-More">
+              <a class="button-learn" href="#machines">Learn-More</a>
+            </div>
           </div>
         </div>
       </div>
@@ -593,7 +582,7 @@
   </div>
   </div>
 </section>
-<section class="section-ourcoffe">
+<section class="section-ourcoffe" id="coffee">
   <div class="ourcoffe-header">
     <h3 class="section-main-header">OUR COFFEE</h3>
     <h2 class="section-header">Discover the Rich Coffee Taste</h2>
@@ -646,7 +635,7 @@
 </section>
 <!-- Denys' block end-->
     <!-- Alexasnder block start -->
-    <div class="block-testimonial">
+    <div class="block-testimonial" id="testimonials">
       <div class="box-text-testimonial">
         <h4>TESTIMONIALS</h4>
         <h2>Warm Words from Our Clients</h2>
@@ -763,8 +752,8 @@
     <!--End FAQ block-->
     <!--Dmitry's block end-->
     <!-- Natalia blok start -->
-    <section class="section__contacts container">
-      <div class="contacts__container container">
+    <section class="section__contacts container" id="contacts">
+      <div class="contacts__container">
         <h3 class="section__subtitle">CONTACTS</h3>
         <h2 class="section__title">We're Always in Touch</h2>
         <p class="contacts__text">Feel free to contact us if you need a consultation:</p>

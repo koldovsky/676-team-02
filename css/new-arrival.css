@@ -1,5 +1,4 @@
-
-img {
+.new-arrival-picture img {
   width: 100%;
 }
 .new-arrival {
@@ -13,7 +12,7 @@ img {
 
     margin: 20px;
   }
-  img {
+  .new-arrival-picture img {
     object-fit: cover;
     height: 100%;
   }
@@ -24,14 +23,11 @@ img {
     max-width: 50%;
   }
 }
-
-
-
 .new-arrival-subtitle {
   color: #222;
   font-size: 18px;
 }
-ul {
+.new-arrival-list {
   padding-left: 0;
   list-style-type: none;
 }
@@ -39,7 +35,7 @@ ul {
   color: #222;
   font-size: 16px;
 }
-li {
+.new-arrival-item {
   padding-left: 30px;
  /* background-image: url(../img/check.svg);*/
   background-position: 0 0;
@@ -58,4 +54,7 @@ li {
 }
 .button-rent:active {
   background-color: red;
-} 
+}
+.new-arrival-button {
+  padding: 50px;
+}
