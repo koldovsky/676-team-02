@@ -72,11 +72,11 @@
 }
 
 .girl-with-cofee_image {
-  display: block;
-  margin-right: 10px;
-  box-sizing: border-box;
-  width: 65%;
-  height: 40%;
+  background-image: url(../img/girl-with-coffee.png);
+  background-size: cover;
+  min-height: 550px;
+  width: 1350px;
+  background-position: 65% 50%;
 }
 
 .list-of-benefit {
@@ -91,4 +91,8 @@
   background-color: #c00407;
   border-radius: 50%;
   fill: #fff;
+}
+
+.expectational-taste-text {
+  padding: 70px 70px;
 }
