@@ -1,10 +1,11 @@
-.coffee-machines {
+.container__coffee-machines {
   padding: 100px 50px 100px 50px;
 }
 
 .section__subtitle {
   color: #c00407;
   font-size: 12px;
+  font-weight: 700;
   display: flex;
   justify-content: center;
 }
@@ -19,6 +20,33 @@
   justify-content: center;
 }
 
+.coffee-machine__name {
+  color: var(--primari-title-color);
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.coffee-machine__price {
+  color: var(--accent-color);
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.list__text {
+  margin: 8px;
+}
+
+.list__icon {
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  margin: 15px;
+  background-color: #c00407;
+  border-radius: 50%;
+  fill: #fff;
+}
+
 .slide__add-to-cart {
   background-color: var(--icons-color-hover);
   border-style: none;
@@ -28,51 +56,32 @@
   width: 127px;
   font-weight: 700;
 }
+
 .slide__add-to-cart:hover {
   background-color: #000;
 }
 
-.coffee-machine__name {
-  color: var(--primari-title-color);
+.carousel__product-information {
   display: flex;
   justify-content: center;
+  display: grid;
 }
 
-.coffee-machine__price {
-  color: var(--accent-color);
+.container__expectational-taste {
   display: flex;
-  justify-content: center;
-}
-
-.slide__add-to-cart {
-  display: flex;
-  justify-content: center;
-}
-
-.expectational-taste {
-  display: flex;
-  padding: 100px 50px 100px 50px;
 }
 
 .girl-with-cofee_image {
   display: block;
   margin-right: 10px;
   box-sizing: border-box;
-  width: 50%;
+  width: 65%;
   height: 40%;
-
-  /* max-height: 520px;
-  background-size: cover;
-  background-position: center; */
 }
 
 .list-of-benefit {
   display: flex;
 }
-
-/* .list__text {
-  display: flex;
-} */
 
 .list__icon {
   box-sizing: border-box;
