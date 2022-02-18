@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Coffee Machine Rental</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/index.css">
 </head>
 
@@ -114,7 +116,7 @@
     <main>
       <!-- Dmitry's block start -->
           <!--Three cards block--> 
-    <section class="page_services container" id="services">
+    <!-- <section class="page_services container" id="services">
       <div class="page_services services">
         <div class="services_container">
           <div class="services_body">
@@ -153,17 +155,17 @@
            </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!--End Three cards block-->
     <!--About block-->
-    <section class="section-about container" id="about">
-      <div class="about">
-        <div class="about-image">
-          <img src="img/aboutblock/img_about.png" alt="Image about block" class="img-about" />
-        </div>
-        <div class="about-texts">
-          <h4 class="about-title">ABOUT</h4>
-          <h2 class="about-header">About Coffee Space</h2>
+    <section class="section-about container row">
+      <div class="about-image col-12 col-sm-12 col-md-6 col-lg-6">
+        <img src="img/aboutblock/img_about.png" alt="Image about block" class="img-about d-block w-100" />
+      </div>
+      <div class="about-text-block col-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="about-text-header">
+          <h4 class="section-subtitle">ABOUT</h4>
+          <p class="section-title">About Coffee Space</p>
           <p class="about-subheader">
             For 10 years, our company has been making sure that you can always
             drink the most delicious coffee from the best coffee machines.
@@ -174,32 +176,18 @@
             coffee beans from the best producers. Our company does everything
             to ensure that you can enjoy delicious coffee whenever you want.
           </p>
-          <!-- <div class="about-markedtext"> -->
-            
-            <!-- <img src="img/aboutblock/check_img.svg" alt="check pictures" class="about-checkpics" width="20" -->
-              <!-- height="20" /> -->
-           <ul>
-              <li>
-                <p class="page_about_markedtext-header">
-                  For offices and commercial use
-                </p>
-              </li>  
-          <!-- </div> -->
-          <p class="page_about_markedtext-text">We offer our corporate clients coffee machines with high
+        </div>
+        <div class="about-text-checked-text">
+          <p>We offer our corporate clients coffee machines with high
             performance. You can rent a coffee machine for use in office
             kitchens and coffee shops.</p>
-          <!-- <div class="about-markedtext"> -->
-            <!-- <img src="img/aboutblock/check_img.svg" alt="check pictures" class="about-checkpics" width="20" -->
-              <!-- height="20" /> -->
-            <li>
-              <p class="page_about_markedtext-header">For your home</p>
-            </li>
-          <!-- </div> -->
-          <p class="page_about_markedtext-text">If you want to enjoy delicious and aromatic coffee at home, you
+        </div>
+        <div class="about-text-checked-text">
+          <p>If you want to enjoy delicious and aromatic coffee at home, you
             will find budget and compact options in our store.</p>
-          </ul>
         </div>
       </div>
+
     </section>
     <!--End About block-->
     <!--Next cards block-->
@@ -264,78 +252,182 @@
     </section>>
     <!-- Andrew's block end -->
     <!-- Anton's block start -->
-    <section class="coffee-machines" id="coffee-machines">
-      <p class="subtitle">COFFEE MACHINES</p>
-      <h2 class="title__h2">Discover Coffee Machines We Offer</h2>
-      <p class="subtext">We offer professional coffee machines for commercial and home use.</p>
-      <div class="coffee-machines__carousel">
-        <article class="coffee-machines__carousel-slide">
-          <a href="frost.html">
-            <img src="img/frost.png" alt="frost">
-          </a>
-          <h3 class="coffee-machine__name">FROST Coffee Machine</h3>
-          <p class="coffee-machine__price">199,00USD</p>
-          <button class="slide__add-to-cart js__slide__add-to-cart">Add to Cart</button>
-        </article>
-        <article class="coffee-machines__carousel-slide">
-          <a href="smik2.html">
-            <img src="img/smik2.png" alt="smik2">
-          </a>
-          <h3 class="coffee-machine__name">SMIK 2 Coffee Machine</h3>
-          <p class="coffee-machine__price">299,00USD</p>
-          <button class="slide__add-to-cart js__slide__add-to-cart">Add to Cart</button>
-        </article>
-        <article class="coffee-machines__carousel-slide">
-          <a href="organic.html">
-            <img src="img/organic.png" alt="organic">
-          </a>
-          <h3 class="coffee-machine__name">ORGANIC Coffee Machine</h3>
-          <p class="coffee-machine__price">299,00USD</p>
-          <button class="slide__add-to-cart js__slide__add-to-cart">Add to Cart</button>
-        </article>
-        <article class="coffee-machines__carousel-slide">
-          <a href="smik.html">
-            <img src="img/smik.png" alt="frost">
-          </a>
-          <h3 class="coffee-machine__name">SMIK Coffee Machine</h3>
-          <p class="coffee-machine__price">199,00USD</p>
-          <button class="slide__add-to-cart js__slide__add-to-cart">Add to Cart</button>
-        </article>
-        <article class="coffee-machines__carousel-slide">
-          <a href="laspezia.html">
-            <img src="img/laspezia.png" alt="frost">
-          </a>
-          <h3 class="coffee-machine__name">La Spezia Coffee Machine</h3>
-          <p class="coffee-machine__price">499,00USD</p>
-          <button class="slide__add-to-cart js__slide__add-to-cart">Add to Cart</button>
-        </article>
+    <section class="container">
+      <div class="container__coffee-machines">
+          <p class="section__subtitle">COFFEE MACHINES</p>
+          <h2 class="section__title">Discover Coffee Machines We Offer</h2>
+          <p class="subtext">We offer professional coffee machines for commercial and home use.</p>
+          <div id="coffeemachines-carousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#coffeemachines-carousel" data-bs-slide-to="0" class="active"
+                      aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#coffeemachines-carousel" data-bs-slide-to="1"
+                      aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#coffeemachines-carousel" data-bs-slide-to="2"
+                      aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#coffeemachines-carousel" data-bs-slide-to="3" 
+                      aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#coffeemachines-carousel" data-bs-slide-to="4" 
+                      aria-label="Slide 5"></button>
+              </div>
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <a href="frost.html">
+                          <img src="img/frost.png" class="d-block w-25 mx-auto" alt="frost">
+                      </a>                           
+                     <div class="carousel__product-information">
+                          <a href="frost.html">
+                              <h4 class="coffee-machine__name">FROST Coffee Machine</h4>
+                          </a>
+                          <p class="coffee-machine__price">199,00USD</p>
+                          <button class="slide__add-to-cart js__slide__add-to-cart">Add to Cart</button>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <a href="smik2.html">
+                          <img src="img/smik2.png" class="d-block w-25 mx-auto" alt="smik2">
+                      </a>
+                      <div class="carousel__product-information">
+                          <a href="smik2.html">
+                              <h4 class="coffee-machine__name">SMIK 2 Coffee Machine</h4>
+                          </a>
+                          <p class="coffee-machine__price">299,00USD</p>
+                          <button class="slide__add-to-cart js__slide__add-to-cart">Add to Cart</button>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <a href="organic.html">
+                          <img src="img/organic.png" class="d-block w-25 mx-auto" alt="organic">
+                      </a>
+                      <div class="carousel__product-information">
+                          <a href="organic.html">
+                              <h4 class="coffee-machine__name">ORGANIC Coffee Machine</h4>
+                          </a>
+                          <p class="coffee-machine__price">299,00USD</p>
+                          <button class="slide__add-to-cart js__slide__add-to-cart">Add to Cart</button>                        
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <a href="smik.html">
+                          <img src="img/smik.png" class="d-block w-25 mx-auto" alt="smik">
+                      </a>                                
+                      <div class="carousel__product-information">
+                          <a href="smik.html">
+                              <h4 class="coffee-machine__name">SMIK Coffee Machine</h4>
+                          </a>
+                          <p class="coffee-machine__price">199,00USD</p>
+                          <button class="slide__add-to-cart js__slide__add-to-cart">Add to Cart</button>
+                      </div>                            
+                  </div>
+                  <div class="carousel-item">
+                      <a href="laspezia.html">
+                          <img src="img/laspezia.png" class="d-block w-25 mx-auto" alt="laspezia">
+                      </a>
+                      <div class="carousel__product-information">
+                          <a href="laspezia.html">
+                              <h4 class="coffee-machine__name">La Spezia Coffee Machine</h4>
+                          </a>
+                          <p class="coffee-machine__price">499,00USD</p>
+                          <button class="slide__add-to-cart js__slide__add-to-cart">Add to Cart</button>                            
+                      </div>
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#coffeemachines-carousel"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#coffeemachines-carousel"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+          <!-- <div class="coffee-machines__carousel">
+              <article class="coffee-machines__carousel-slide">
+                  <a href="frost.html">
+                      <img src="img/frost.png" alt="frost">
+                  </a>
+                  <h4 class="coffee-machine__name">FROST Coffee Machine</h4>
+                  <p class="coffee-machine__price">199,00USD</p>
+                  <button class="slide__add-to-cart js__slide__add-to-cart">Add to Cart</button>
+              </article>
+              <article class="coffee-machines__carousel-slide">
+                  <a href="smik2.html">
+                      <img src="img/smik2.png" alt="smik2">
+                  </a>
+                  <h4 class="coffee-machine__name">SMIK 2 Coffee Machine</h4>
+                  <p class="coffee-machine__price">299,00USD</p>
+                  <button class="slide__add-to-cart js__slide__add-to-cart">Add to Cart</button>
+              </article>
+              <article class="coffee-machines__carousel-slide">
+                  <a href="organic.html">
+                      <img src="img/organic.png" alt="organic">
+                  </a> -->
+                  <!-- <h4 class="coffee-machine__name">ORGANIC Coffee Machine</h4>
+                  <p class="coffee-machine__price">299,00USD</p>
+                  <button class="slide__add-to-cart js__slide__add-to-cart">Add to Cart</button>
+              </article> -->
+              <!-- <article class="coffee-machines__carousel-slide">
+                  <a href="smik.html">
+                      <img src="img/smik.png" alt="frost">
+                  </a>
+                  <h4 class="coffee-machine__name">SMIK Coffee Machine</h4>
+                  <p class="coffee-machine__price">199,00USD</p>
+                  <button class="slide__add-to-cart js__slide__add-to-cart">Add to Cart</button>
+              </article> -->
+              <!-- <article class="coffee-machines__carousel-slide">
+                  <a href="laspezia.html">
+                      <img src="img/laspezia.png" alt="frost">
+                  </a>
+                  <h4 class="coffee-machine__name">La Spezia Coffee Machine</h4>
+                  <p class="coffee-machine__price">499,00USD</p>
+                  <button class="slide__add-to-cart js__slide__add-to-cart">Add to Cart</button>
+              </article>
+          </div> -->
       </div>
-    </section>
-    <section class="expectational-taste">
-      <img src="img/girl-with-coffee.png" alt="girl-with-coffee">
-      <p class="subtitle">EXCEPTIONAL TASTE</p>
-      <h2 class="title__h2">Divine Aroma in Every Cup</h2>
-      <p class="subtext">We supply our customers with only the best coffee and professional coffee machines. Thanks to
-        our rental service, you
-        can enjoy really exceptional coffee for affordable price.</p>
-      <p class="section__text">Good coffee is an energy boost for the whole day and the source of a good mood. We at
-        Coffee Space understand this
-        better than anyone else, and for 10 years now we have been offering our customers reliable coffee equipment
-        and the best
-        varieties of coffee beans.</p>
-      <h3 class="title__little">Best Beans</h3>
-      <p class="section__text">Our partner is Golden Peak, one of the best coffee producers in the world. With the
-        coffee machine rental, you can also
-        order any coffee variety you prefer.</p>
-      <h3 class="title__little">Always on Time</h3>
-      <p class="section__text">Our experts will deliver your order strictly on the specified day and at the specified
-        time. We carry out regular
-        deliveries in accordance with your wishes.</p>
-      <h3 class="title__little">Variety of Coffee Machines</h3>
-      <p class="section__text">We are providers of bean-to-cup coffee machines and professional equipment for offices
-        and coffee shops. We offer
-        affordable rental solutions.</p>
-    </section>
+  </section>
+  <section class="container">
+      <div class="container__expectational-taste">
+          <div class="girl-with-cofee_image">
+          </div>
+          <div class="expectational-taste-text">
+              <p class="section__subtitle">EXCEPTIONAL TASTE</p>
+              <h2 class="section__title">Divine Aroma in Every Cup</h2>
+              <p class="subtext">We supply our customers with only the best coffee and professional coffee machines. Thanks to our rental service, you
+              can enjoy really exceptional coffee for affordable price.</p>
+              <p class="section__text">Good coffee is an energy boost for the whole day and the source of a good mood. We at Coffee Space understand this
+              better than anyone else, and for 10 years now we have been offering our customers reliable coffee equipment and the best
+              varieties of coffee beans.</p>
+              <div class="common__list">
+                  <div class="list-of-benefit">
+                      <img class="list__icon" src="img/corn-icon.svg" alt="corn-icon">
+                      <div class="list__text">
+                          <h4 class="title__little">Best Beans</h4>
+                          <p class="section__text">Our partner is Golden Peak, one of the best coffee producers in the world. With the coffee machine rental, you can also
+                      order any coffee variety you prefer.</p>
+                      </div>
+                  </div>
+                  <div class="list-of-benefit">
+                      <img class="list__icon" src="img/cup-icon.svg" alt="cup-icon">
+                      <div class="list__text">
+                          <h4 class="title__little">Always on Time</h4>
+                          <p class="section__text">Our experts will deliver your order strictly on the specified day and at the specified time. We carry out regular
+                      deliveries in accordance with your wishes.</p>
+                      </div>
+                  </div>
+                  <div class="list-of-benefit">
+                      <img class="list__icon" src="img/cofee-machine-icon.svg" alt="cofee-machine-icon">
+                      <div class="list__text">
+                          <h4 class="title__little">Variety of Coffee Machines</h4>
+                          <p class="section__text">We are providers of bean-to-cup coffee machines and professional equipment for offices and coffee shops. We offer
+                      affordable rental solutions.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
     <!-- Anton's block end -->
     <!-- Alexasnder block start -->
     <div class="block-new-arrival">
@@ -356,12 +448,12 @@
             coffee into the container, pour in water, and press one button. The
             machine also froths milk for the latte.
           </p>
-          <ul class="new-arrival-text">
-            <li>Stainless steel cup holder;</li>
-            <li>Removable drip-tray for cups;</li>
-            <li>3 filters included (1 cup, 2 cups, paper pods);</li>
-            <li>Flow stop function;</li>
-            <li>Steam option.</li>
+          <ul class="new-arrival-list">
+            <li class="new-arrival-item">Stainless steel cup holder;</li>
+            <li class="new-arrival-item">Removable drip-tray for cups;</li>
+            <li class="new-arrival-item">3 filters included (1 cup, 2 cups, paper pods);</li>
+            <li class="new-arrival-item">Flow stop function;</li>
+            <li class="new-arrival-item">Steam option.</li>
           </ul>
           <p class="footnote-new-arrival">
             This coffee machine is presented in a luxurious red color and will
@@ -376,22 +468,25 @@
     </div>
     <div class="block-get-1-month">
       <div class="box-get-1-month">
-        <div class="box-text-get-1-month">
-          <h2 class="h2-get-1-month">
-            Get 1 month <span style="color: red"> free*</span> usage
-          </h2>
-          <p class="footnote-get-1-month">
-            *Rent any coffee machine for at least 6 months and get 1 month for
-            free! This promotion is valid only until May 31, 2021, and can't be
-            combined with other offers.
-          </p>
-        </div>
-        <div class="box-button-get-1-month">
-          <div class="rent-now">
-            <p><a class="button-rent" href="#contacts">Rent now</a></p>
+        <div class="get-1-month">
+          <div class="box-text-get-1-month">
+            <h2 class="h2-get-1-month">
+              Get 1 month <span style="color: red"> free*</span> usage
+            </h2>
+            <p class="footnote-get-1-month">
+              *Rent any coffee machine for at least 6 months and get 1 month for
+              free!<br />
+              This promotion is valid only until May 31, 2021, and can't be
+              combined with other offers.
+            </p>
           </div>
-          <div class="learn-More">
-            <p><a class="button-learn" href="#machines">Rent now</a></p>
+          <div class="box-button-get-1-month">
+            <div class="rent-now">
+              <a class="button-rent" href="#contacts">Rent now</a>
+            </div>
+            <div class="learn-More">
+              <a class="button-learn" href="#machines">Learn-More</a>
+            </div>
           </div>
         </div>
       </div>
@@ -430,7 +525,7 @@
   <div class="tab-content" id="pills-tabContent">
     <div class="tab-pane fade show active" id="pills-rental" role="tabpanel" aria-labelledby="pills-rental-tab">
       <form class="form-tab"> 
-        <img id="consalting-img" src="img/rental-shototam(delete).png" alt="rental-image" />
+        <img class="consalting-img" src="img/rental-services.png" alt="rental-image" />
         <div class="info-services-tab">       
         <h4 class="services-header-tab">Coffee Machine Rental.</h4>
         <div class="info-redirection-underlining"></div>
@@ -468,7 +563,7 @@
     </div>
     <div class="tab-pane fade" id="pills-consulting" role="tabpanel" aria-labelledby="pills-consulting-tab">
       <form class="form-tab"> 
-      <img id="consalting-img" src="img/consulting.png" alt="consalting-image" />
+      <img class="consalting-img" src="img/consulting.png" alt="consalting-image" />
       <div class="info-services-tab">       
       <h4 class="services-header-tab">Consulting For Coffee Shop Owners.</h4>
       <div class="info-redirection-underlining"></div>
@@ -662,8 +757,8 @@
 </section>
 <!-- Denys' block end-->
     <!-- Alexasnder block start -->
-    <div class="block-testimonial" id="testimonials">
-      <div class="box-text-testimonial">
+    <div class="block-testimonial">
+      <div class="box-text-testimonial text-center">
         <h4>TESTIMONIALS</h4>
         <h2>Warm Words from Our Clients</h2>
         <p class="text-testimonial">
@@ -671,53 +766,101 @@
           delight our customers.
         </p>
       </div>
-      <div class="box-carousel-testimonial">
-        <section>
-          <div class="card">
-            <img src="img/josh.png" alt="" />
-            <h3 class="image-title">Josh Mendel</h3>
-            <p class="image-text">
-              “I really love to drink coffee in the morning, but I hate making
-              it. Therefore, I decided to rent a coffee machine from this
-              company. I am very pleased with the service – everything was done
-              quickly, they brought and set up the coffee machine.”
-            </p>
-            <h5 class="image-data">December 15, 2020</h5>
+      <div
+        id="carouselTestimonial"
+        class="box-carousel-testimonial carousel carousel-dark slide"
+        data-bs-ride="carousel"
+        interval="false"
+      >
+        <div class="block-carousel carousel-inner d-flex">
+          <div class="card carousel-item w-50 border-0 m-auto active">
+            <div class="card-image">
+              <img
+                src="img/daniella.png"
+                class="w-50"
+                alt="Daniella Willamson Photo"
+              />
+            </div>
+            <div class="card-title">
+              <h3 class="image-title">Daniella Willamson</h3>
+              <p class="image-text">
+                “When I opened a coffee shop, I couldn't find an affordable
+                coffee machine. Finally, I found this company and I am grateful
+                for their excellent advice. They helped with the choice of the
+                coffee machine and regularly deliver coffee beans and cups."
+              </p>
+              <h5 class="image-data">March 04, 2021</h5>
+            </div>
           </div>
-          <div class="card">
-            <img src="img/jessica.png" alt="" />
-            <h3 class="image-title">Jessica Malacks</h3>
-            <p class="image-text">
-              “We have renovated the office kitchen and decided to delight our
-              employees with automatic coffee machines. However, such equipment
-              is very expensive. So, we simply rented coffee machines from this
-              company and were completely satisfied.”
-            </p>
-            <h5 class="image-data">February 10, 2021</h5>
+          <div class="card carousel-item w-50 border-0 m-auto">
+            <div class="card-image">
+              <img src="img/dean.png" class="w-50" alt="Dean Steinberg Photo" />
+            </div>
+            <div class="card-title">
+              <h3 class="image-title">Dean Steinberg</h3>
+              <p class="image-text">
+                “We have been cooperating with this company for 2 years already,
+                and during this time, not a single problem situation has arisen.
+                The service is fast, the coffee is delivered without delay, the
+                prices for coffee machine rental are very low.”
+              </p>
+              <h5 class="image-data">March 22, 2021</h5>
+            </div>
           </div>
-          <div class="card">
-            <img src="img/daniella.png" alt="" />
-            <h3 class="image-title">Daniella Willamson</h3>
-            <p class="image-text">
-              “When I opened a coffee shop, I couldn't find an affordable coffee
-              machine. Finally, I found this company and I am grateful for their
-              excellent advice. They helped with the choice of the coffee
-              machine and regularly deliver coffee beans and cups."
-            </p>
-            <h5 class="image-data">March 04, 2021</h5>
+          <div class="card carousel-item w-50 border-0 m-auto">
+            <div class="card-image">
+              <img
+                src="img/jessica.png"
+                class="w-50"
+                alt="Jessica Malacks Photo"
+              />
+            </div>
+            <div class="card-title">
+              <h3 class="image-title">Jessica Malacks</h3>
+              <p class="image-text">
+                “We have renovated the office kitchen and decided to delight our
+                employees with automatic coffee machines. However, such
+                equipment is very expensive. So, we simply rented coffee
+                machines from this company and were completely satisfied.”
+              </p>
+              <h5 class="image-data">February 10, 2021</h5>
+            </div>
           </div>
-          <div class="card">
-            <img src="img/dean.png" alt="" />
-            <h3 class="image-title">Dean Steinberg</h3>
-            <p class="image-text">
-              “We have been cooperating with this company for 2 years already,
-              and during this time, not a single problem situation has arisen.
-              The service is fast, the coffee is delivered without delay, the
-              prices for coffee machine rental are very low.”
-            </p>
-            <h5 class="image-data">March 22, 2021</h5>
+          <div class="card carousel-item w-50 border-0 m-auto">
+            <div class="card-image">
+              <img src="img/josh.png" class="w-50" alt="Josh Mendel Photo" />
+            </div>
+            <div class="card-title">
+              <h3 class="image-title">Josh Mendel</h3>
+              <p class="image-text">
+                “I really love to drink coffee in the morning, but I hate making
+                it. Therefore, I decided to rent a coffee machine from this
+                company. I am very pleased with the service – everything was
+                done quickly, they brought and set up the coffee machine.”
+              </p>
+              <h5 class="image-data">December 15, 2020</h5>
+            </div>
           </div>
-        </section>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselTestimonial"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselTestimonial"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
     <!-- Alexander block end -->
@@ -888,6 +1031,7 @@
   <!--Denys block end-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <script src="js/header-burger.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -1,0 +1,52 @@
+.box-get-1-month {
+  margin: 100px auto;
+  width: 90%;
+  background-image: url("../img/background_coffe_machine.png");
+  background-size: cover;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px 10px rgb(225, 225, 225);
+}
+.get-1-month {
+  align-items: center;
+  padding: 50px;
+  width: 85%;
+  min-height: 300px;
+}
+.box-button-get-1-month {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.h2-get-1-month {
+  color: #222;
+  font-size: 40px;
+}
+.footnote-new-arrival {
+  color: #8c8c8c;
+  font-size: 16px;
+}
+.footnote-get-1-month {
+  color: #8c8c8c;
+  font-size: 16px;
+}
+.learn-More {
+}
+.button-learn {
+  margin-left: 10px;
+  padding: 10px 10px;
+  font-size: 15px;
+  color: #222;
+  text-decoration: none;
+  background-color: white;
+  border: solid #222 5px;
+}
+.button-learn:hover {
+  color: white;
+  background-color: #222;
+}
+.button-learn:active {
+  color: darkgray;
+  background-color: #222;
+  border-color: darkgrey;
+}

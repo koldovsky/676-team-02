@@ -1,10 +1,50 @@
-.subtitle {
+.container__coffee-machines {
+  padding: 100px 50px 100px 50px;
+}
+
+.section__subtitle {
   color: #c00407;
   font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+.section__title {
+  display: flex;
+  justify-content: center;
 }
 
 .subtext {
   color: var(--accent-text-color);
+  display: flex;
+  justify-content: center;
+}
+
+.coffee-machine__name {
+  color: var(--primari-title-color);
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.coffee-machine__price {
+  color: var(--accent-color);
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.list__text {
+  margin: 8px;
+}
+
+.list__icon {
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  margin: 15px;
+  background-color: #c00407;
+  border-radius: 50%;
+  fill: #fff;
 }
 
 .slide__add-to-cart {
@@ -16,19 +56,43 @@
   width: 127px;
   font-weight: 700;
 }
+
 .slide__add-to-cart:hover {
   background-color: #000;
 }
 
-.coffee-machine__name {
-  color: var(--primari-title-color);
+.carousel__product-information {
+  display: flex;
+  justify-content: center;
+  display: grid;
 }
 
-.coffee-machine__price {
-  color: var(--accent-color);
+.container__expectational-taste {
+  display: flex;
 }
 
 .girl-with-cofee_image {
-  width: 747px;
-  height: 520px;
+  background-image: url(../img/girl-with-coffee.png);
+  background-size: cover;
+  min-height: 550px;
+  width: 1350px;
+  background-position: 65% 50%;
+}
+
+.list-of-benefit {
+  display: flex;
+}
+
+.list__icon {
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  background-color: #c00407;
+  border-radius: 50%;
+  fill: #fff;
+}
+
+.expectational-taste-text {
+  padding: 70px 70px;
 }

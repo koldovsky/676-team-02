@@ -1,6 +1,6 @@
 @media(min-width:652)
 {
-  #consalting-img ,#rental-service-img,#accessories-img#repair-img 
+  .consalting-img ,#rental-service-img,#accessories-img#repair-img 
 {
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
@@ -14,7 +14,7 @@
   display: flex;
 }
 
-#consalting-img {
+.consalting-img {
   margin-left: auto;
   margin-right: auto;
   width: auto;
@@ -54,7 +54,7 @@
 {
   text-align: left;
 }
-#consalting-img ,#rental-service-img,#accessories-img#repair-img 
+.consalting-img ,#rental-service-img,#accessories-img#repair-img 
 {
   max-width:430px;
   max-height:741px ;
@@ -66,7 +66,7 @@
   display: flex;
 }
 
-#consalting-img {
+.consalting-img {
 
   object-fit: cover;
   margin-left: auto;
@@ -154,43 +154,27 @@
   margin-right: auto;
 }
 #rental-service-img {
-  
-  margin-left:auto ;
-  margin-right: auto;
   max-width:430px ;
   max-height:734px ;
-  width: auto;
-  height: auto;
   align-items: center;
   display: flex;
 }
 
-#consalting-img {
-margin: auto;
-min-width:320px ;
-min-height:230px ;
+.consalting-img {
   max-width:430px;
   max-height:741px ;
-  width: auto;
-  height: auto;
   align-items: center;
   display: flex;
 }
 #accessories-img {
-  margin: auto;
   max-width: 430px; ;
   max-height:815px;
-  width: auto;
-  height: auto;
   align-items: center;
   display: flex;
 }
 #repair-img {
-  margin: auto;
   max-width:430px ;
   max-height: 682px;
-  width: auto;
-  height: auto;
   align-items: center;
   display: flex;
 }

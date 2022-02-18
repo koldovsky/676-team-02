@@ -12,25 +12,34 @@ h4 {
     font-weight: 700;
 }
 /*--------------------*/
+.section-about {
+    margin-left: auto ;
+    margin-right: auto;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 39px 47px;
+    border-radius: 8px;
+    background-color: var(--primari-white-color);
+    box-shadow: 0 5px 11.2px 2.8px rgb(136 140 133 / 12%);
 
-.about {
-    max-width: 1000px;
-    display: flex;  
-    justify-content: center;   
 }
 .img-about {
-    max-width: 100%;
-    border-radius: 10px;    
+    border-radius: 6px;
 }
-.about-markedtext {
-    display: flex;
-    align-items: center;
-    color: #222;
+.section-title {
+    font-family: var(--accent-font);
+    color: var(--primari-title-color);
+    font-size: 40px;
+    font-weight: 700;
+}
+.about-subheader {
     font-size: 18px;
     font-weight: 400;
+    color: var(--primari-title-color);
+    font-family: var(--main-font);
+    
+
 }
-.about-checkpics {
-    padding: 0px 5px 0px 5px;
-}
+
 
 
