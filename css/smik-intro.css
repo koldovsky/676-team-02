@@ -1,0 +1,94 @@
+@media screen and (min-width: 615px) {
+  .smik-banner
+  {
+    justify-content: space-between;
+  }
+    }
+.smik-banner {
+  margin-top: 90px;
+  background-image: url(../img/smik-intro-banner.png);
+  height: 890px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+  background-position-x: 53.13%;
+  background-position-y: 70.98%;
+  background-size: cover;
+}
+.info-and-buttoms
+{
+    display: flex;
+    flex-direction: column;
+}
+.smik__baner-subtitle {
+  font-size: 12px;
+  line-height: 1.6;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0;
+  color: #fff;
+  text-transform: none;
+}
+.smik-banner h2 {
+  font-size: 38px;
+  color: #fff;
+  line-height: 1.1;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  text-transform: none;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0;
+}
+.smik_subtext {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0;
+  color: #fff;
+  text-transform: none;
+}
+.rent-now-btn {
+  color: #222;
+  background-color: #fff;
+  border-style: none;
+  border-radius: 2px;
+  width: 118.464px;
+  height: 47.487px;
+}
+.rent-now-btn:hover {
+  color: #fff;
+  background-color: #222;
+  transition: 0.4s;
+}
+.characteristics-btn {
+  color: #fff;
+  font-weight: 600;
+  margin-left: 10px;
+  padding: 11px 24px;
+  text-decoration: none;
+  border: 2px solid #fff;
+}
+.characteristics-btn:hover{
+    color: #222;
+    background-color: #fff;
+    transition: 0.4s;
+}
+.smik-image-item
+{
+    margin-top:30px ;
+    margin-bottom: 20px;
+    max-width: 522px;
+    width: 100%;
+    height: auto;
+     max-height: 590px;
+}
