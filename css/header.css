@@ -110,6 +110,15 @@ body.lock {
   color: var(--primari-title-color);
   margin-top: 30px;
 }
+@media screen and (min-width: 990px) {
+  .header__contacts-adress,
+  .header__contacts-phone {
+    flex-direction: row;
+    margin: 0px;
+    align-items: baseline;
+  }
+}
+
 .header__contacts-adress:hover,
 .header__contacts-phone:hover,
 .header__contacts-adress:focus,
@@ -122,13 +131,14 @@ body.lock {
   width: 15px;
   height: 15px;
   margin-bottom: 30px;
-  /*margin-right: 20px;*/
   fill: var(--accent-color);
 }
+
 @media screen and (min-width: 990px) {
   .header__contacts-adress-icon,
   .header__contacts-phone-icon {
     margin-right: 20px;
+    margin-bottom: 0px;
   }
 }
 .header__contacts-adress-icon,
