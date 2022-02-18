@@ -6,13 +6,14 @@ body.lock {
   position: relative;
   z-index: 1;
 }
+
 .header__nav-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 989px) {
+@media screen and (max-width: 989px) {
   .header__nav-wrapper {
     position: fixed;
     top: -100%;
@@ -184,13 +185,14 @@ body.lock {
 }
 @media screen and (min-width: 990px) {
   .header__nav-social-list-icon {
-    margin-top: 10px;
+    margin: 10px 0;
   }
 }
 
 .header__nav-social-list {
   display: flex;
   margin-top: 30px;
+  margin-left: 20px;
 }
 @media screen and (min-width: 990px) {
   .header__nav-social-list {
