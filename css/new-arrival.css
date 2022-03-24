@@ -37,7 +37,7 @@
 }
 .new-arrival-item {
   padding-left: 30px;
- /* background-image: url(../img/check.svg);*/
+  background-image: url(../img/check.svg);
   background-position: 0 0;
   background-size: 1rem 1rem;
   background-repeat: no-repeat;
